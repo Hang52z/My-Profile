@@ -3,7 +3,7 @@ import React from 'react';
 // 导入你项目的截图
 import asxImg from '../assets/projects_ss/asx_analyzer.png';
 import deliveryImg from '../assets/projects_ss/delivery.png';
-// import foodImg from '../assets/projects/food-screenshot.png';
+import elidiabetesImg from '../assets/projects_ss/elidiabetes.png';
 
 const projects = [
   {
@@ -18,12 +18,12 @@ const projects = [
     image: deliveryImg,
     link: 'https://food-delivery-chi-hazel.vercel.app/',
   },
-  // {
-  //   title: 'Food Ordering App',
-  //   period: 'Nov 2024 – Feb 2025',
-  //   image: foodImg,
-  //   link: 'https://food-delivery-chi-hazel.vercel.app',
-  // },
+  {
+    title: 'EliDiabetes',
+    period: 'Mar 2024 – Oct 2024',
+    image: elidiabetesImg,
+    link: '#',
+  },
 ];
 
 const Projects = () => (
